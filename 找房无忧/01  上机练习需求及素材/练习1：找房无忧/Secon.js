@@ -1,0 +1,32 @@
+$('.nav1').on('touchstart',function(){
+    $('.mengban').show()
+    $('.quyu').show()
+    $('.fangxing').hide()
+    $('.more').hide()
+    $('.price').hide()
+})
+$('.nav2').on('touchstart',function(){
+    $('.mengban').show()
+    $('.quyu').hide()
+    $('.price').show()
+    $('.fangxing').hide()
+    $('.more').hide()
+})
+$('.nav3').on('touchstart',function(){
+    $('.mengban').show()
+    $('.quyu').hide()
+    $('.price').hide()
+    $('.fangxing').show()
+    $('.more').hide()
+})
+$('.nav4').on('touchstart',function(){
+    $('.mengban').show()
+    $('.quyu').hide()
+    $('.price').hide()
+    $('.fangxing').hide()
+    $('.more').show()
+})
+$('.mengban').on('touchstart',function(){
+    
+    $('.mengban').hide()
+})

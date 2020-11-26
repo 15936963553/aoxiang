@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src=""></script>
+</head>
+<body>
+      <!-- 头部 -->
+      <header>
+        <img src="./素材/image/index/logo.jpg" alt="">
+        <img src="./素材/image/index/my.jpg" alt="">
+        <img src="./素材/image/index/xiazai.jpg" alt="">
+      </header>
+      <!-- 主体 -->
+      <div class="center">
+        <div class="ipt">
+          <img src="./素材/image/index/seach.jpg" alt="">
+          <input type="text" placeholder="输入小区或商圈名开始找房咯！">
+        </div>
+      </div>
+
+      <nav>
+          <ul>
+            <li><img src="./素材/image/index/index_03.png" alt="">二手房</li>
+            <li><img src="./素材/image/index/index_05.png" alt="">新房</li>
+            <li><img src="./素材/image/index/index_07.png" alt="">租房</li>
+            <li><img src="./素材/image/index/index_09.png" alt="">卖房</li>
+          </ul>
+      </nav>
+
+      <div class="banner"><img src="" alt=""></div>
+    
+      <!-- 热门房源 -->
+      <div class="hot">
+        <p>热门房源</p>
+        <p>Hot house</p>
+      </div>
+
+      <ul class="list">
+        <li>
+          <img src="./素材/image/index/img1.jpg" alt="">
+          <div>
+             <p>文化部中间层 一层带阁楼<!--  --></p>
+             <p><span>2室1厅96㎡南北</span> <span>1105万</span> </p>
+             <p><span>红庙北里</span> <span>14268元/平</span> </p>
+             <p> <span>学区房</span> <span>独家</span> </p>
+          </div>
+        </li>
+      </ul>
+      <ul class="list">
+        <li>
+          <img src="./素材/image/index/img2.png" alt="">
+          <div>
+             <p>光大水墨  精装复式 稀缺</p>
+             <p><span>室1厅96㎡南北 </span> <span>280万</span> </p>
+             <p><span>光大水墨 </span> <span>14268元/平</span> </p>
+             <p> <span>学区房</span><span>满五唯一</span> </p>
+          </div>
+        </li>
+      </ul>
+      <ul class="list">
+        <li>
+          <img src="./素材/image/index/img3.png" alt="">
+          <div>
+             <p>南北通透两居  精装修 无</p>
+             <p><span>2室1厅96㎡南北  </span> <span>320万</span> </p>
+             <p><span>北京新天地  </span> <span>14268元/平</span> </p>
+             <p> <span>地铁房</span><span>独家</span> </p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- 热门关注 -->
+      <div class="hengt"></div>
+      <div class="rem">
+         <span>热门关注</span>  <span>友情链接</span>
+      </div>
+
+      <div class="text">
+        <ul>
+          <li><span>北京二手房</span><span>北京找房无忧</span></li>
+          <li><span>北京二手房价</span><span>青年家园</span></li>
+          <li><span>海淀日租房</span><span>免税房源</span></li>
+          <li><span>朝阳新房</span><span>满五年唯一免税</span></li>
+        </ul>
+      </div>
+        <!-- 底部 -->
+        <footer>
+          <span>北京找房无忧 > 首页</span>
+          <div class="client">
+              <div class="tx">
+                <img src="./素材/image/index/apple.png" alt="">
+                iPhone客户端
+              </div> 
+              
+              <div class="tx">
+                <img src="./素材/image/index/android.png" alt="">
+                   Android客户端
+              </div> 
+          </div>
+          <div class="p">北京找房无忧房地产经纪公司</div>
+          <div class="p1">网络经营许可证京ICP备20160812号</div>
+      </footer>
+     <!-- 广告 -->
+        <div class="advertising">
+                 <img src="./素材/image/index/close.png" alt="">
+                 <img src="./素材/image/index/download.png" alt="">
+                 <div>
+                     <p>找房无忧</p>
+                     <p class="p1">市场行情，一手掌握</p>
+                 </div>
+                 <span>免费下载</span>
+        </div>
+</body> 
+<script>
+    function setRem(){
+      var windw = document.documentElement.clientWidth || document.body.clientWidth;
+      var uiw = 320;
+      document.documentElement.style.fontSize = (windw/uiw)*10+'px'
+    }
+    setRem();
+    window.onresize = setRem;
+  </script>  
+</html>

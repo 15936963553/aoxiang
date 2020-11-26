@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    background:none;  
+	outline:none;  
+	border:none;
+}
+ul, li{
+    list-style: none;
+}
+// 头部
+header{
+    width: 100%;
+    height: 5rem;
+    background: #ff8a00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img:nth-child(1){
+        width: 10rem;
+        padding-right: 10rem;
+    }
+    img:nth-child(2){
+        width: 3rem;
+        padding-right: 1.5rem;
+    }
+    img:nth-child(3){
+        width: 3rem;
+    }
+}
+
+// 轮播图
+.swiper-container{
+    img{
+        width: 100%;
+    }
+}
+// 详情
+.xiangqing{
+    width: 100%;
+    background: white;
+
+    img{
+        width: 1.5rem;
+    }
+    .zhuti{
+        width: 90%;
+        margin: 0 auto;
+        >span:nth-child(1){
+            font-size: 1.6rem;
+            font-weight: 800;
+        }
+        >p>span:nth-child(1){
+            color: red;
+            font-size: 1.2rem;
+            font-weight: 600;
+            line-height: 2.5rem;
+        }
+        p:nth-child(3){
+            font-size: 1.2rem;
+            color: #848685;
+            line-height: 2.5rem;
+        }
+        img{
+            width: 1.2rem;
+            padding-left: 10rem;
+        }
+        .botm{
+            display: flex;
+            padding-top: 1rem;
+            margin-bottom: 2rem;
+            div{
+                width: 6rem;
+                height: 2rem;
+                background-color: #DEE9F0;
+                text-align: center;
+                line-height: 2rem;
+                font-size: 1.2rem;
+                
+            }
+            div:nth-child(2){
+                margin-left: 1rem;
+            }
+            div:nth-child(3){
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+.hengt{
+    width: 100%;
+    height: 1.5rem;
+    background:#F5F5F5 ;
+    border: 1px solid #e5e5e5;
+}
+
+// 房情
+.fangqing{
+    width: 100%;
+    li{
+        font-size: 1.2rem;
+        width: 94%;
+        height: 4rem;
+        margin: 0 auto;
+        border-bottom: 1px solid #e5e5e5;
+        line-height: 4rem;
+        display: flex;
+       
+           flex-shrink:1;
+        span{
+           display:inline-block;
+           width: 100%;
+           font-size: 1.2rem;
+           display: flex;
+           flex-shrink:1;
+        }
+    }
+    li:nth-child(8){
+        width: 100%;
+        height: 5rem;
+        font-size: 1.2rem;
+        color: #848685;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+// 房源特色
+.tese{
+    width: 100%;
+    background: white;
+    li:nth-child(1){
+        width: 90%;
+        height: 5rem;
+        border-bottom: 1px solid #e5e5e5;
+        line-height: 5rem;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        color: #FFA74E;
+    }
+    li:nth-child(2){
+        width: 90%;
+      
+        border-bottom: 1px solid #e5e5e5;
+       line-height: 2rem;
+        margin: 0 auto;
+        font-size: 1.2rem;
+       
+    }
+    li:nth-child(3){
+        width: 100%;
+        height: 5rem;
+        font-size: 1.2rem;
+        color: #848685;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+}
+
+// 户型分间
+.huxing{
+    width: 100%;
+    background: white;
+    img{
+        width: 7rem;
+        height: 7rem;
+    }
+    li:nth-child(1){
+        width: 90%;
+        height: 5rem;
+        border-bottom: 1px solid #e5e5e5;
+        line-height: 5rem;
+        margin: 0 auto;
+        font-size: 1.8rem;
+        color: #FFA74E;
+    }
+    li:nth-child(2),.li2{
+        width: 90%;
+        height: 11rem;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #ff8a00;
+        
+        margin: 0 auto;
+        font-size: 1.2rem;
+        .p{
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .p1{
+            font-size: 1.2rem;
+        }
+        .p2{
+            display: flex;
+            div{
+                width: 5rem;
+                height: 2.3rem;
+                background: #F4F7F9;
+                color: #849aae;
+                text-align: center;
+                line-height: 2.3rem;
+            }
+            .dv{
+                margin-left: 1rem;
+            }
+        }
+       
+       .tex{
+           padding-left: 1rem;
+           line-height: 2rem;
+          
+       }
+    }
+    .li2{
+        border: none;
+    }
+}
+
+// 对口学校
+.duikou{
+    width: 100%;
+    background: white;
+    li{
+        width: 90%;
+        height: 5rem;
+        border-bottom: 1px solid #e5e5e5;
+        line-height: 5rem;
+        margin: 0 auto;
+        font-size: 1.3rem;
+    }
+    li:nth-child(1){
+        width: 90%;
+        height: 5rem;
+        border-bottom: 1px solid #e5e5e5;
+        line-height: 5rem;
+        margin: 0 auto;
+        font-size: 1.8rem;
+       
+    }
+    .sp1{
+        font-size: 1.2rem;
+        color: #999999;
+    }
+    .dibu{
+        font-size: 1.2rem;
+        color: #999999;
+        width: 100%;
+        height: 6rem;
+        text-align: center;
+        line-height: 6rem;
+    }
+}
+
+// 推荐房源
+.list{
+    width: 100%;
+    height: 16.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    li{
+        width: 90%;
+        height: 10rem;
+       
+        display: flex;
+        img{
+            width:7rem;
+            height: 7rem;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    div{
+        width: 19rem;
+        padding-left: 1rem;
+       line-height: 2.5rem;
+       margin-top: -1rem;
+        p:nth-child(1){
+            font-size: 1.5rem;
+            font-weight: 800;
+            overflow: hidden;
+            white-space: nowrap;
+            
+        }
+        p:nth-child(2){
+        font-size: 1.2rem;
+        color: #FF8A00;
+        display: flex;
+        justify-content: space-between;
+        }
+        p:nth-child(3){
+            display: flex;
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #bdbdbd; 
+           
+            justify-content: space-between; 
+        }
+           p:nth-child(4){
+            font-size: 1.2rem;
+            color: #bdbdbd;  
+        }
+       
+        
+    }
+    .spa{
+        color:#A1D2F8;  
+        font-size: 1.2rem;
+    }
+    .liyou{
+        font-size: 1.3rem;
+        width: 100%;
+        height: 5rem;
+        background: #e5e5e5;
+        line-height: 5rem;
+        margin-left: 4rem;
+    }
+    
+}
+.dibu{
+    font-size: 1.2rem;
+    color: #999999;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// 位置及周边
+    .ditu{
+        width: 90%;
+        height: 30rem;
+        margin: 0 auto;
+    }
+
+// 联系经纪人
+.jingji{
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    flex-direction: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 3rem;
+        height: 3rem;
+        padding-right: 1rem;
+    }
+    div:nth-child(1){
+        width: 60%;
+        height: 5rem;
+        background: #FF8A00;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        
+    }
+    div:nth-child(2){
+        width: 25%;
+        height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+
+// 底部
+footer{
+    width: 100%;
+    height: 15rem;
+    background:#2f3130;
+    span{
+        display: block;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        color: #848685;
+        font-size: 1.3rem;
+        font-weight: 600;
+        padding-left: 1.5rem;
+    }
+    .client{
+       margin: 0 auto;
+        display: flex;
+       
+        width: 70%;
+        height: 7rem;
+        justify-content: center;
+        align-items: center;
+        color: #848685;
+        font-size: 1.3rem;
+        
+        .tx{
+            width: 7rem;
+            height: 5rem;
+            display: flex;
+            padding: 3.5rem;
+            font-size: 1.2rem;
+            img{
+                width: 2.5rem;
+                height: 3rem;
+                padding-right: 1rem;
+            }
+        }
+    }
+    .p{
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        font-size: 1.4rem;
+        color: #848685;
+        
+    }
+    .p1{
+        width: 100%;
+         height: 2rem;
+         font-size: 1.2rem;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: #848685;
+         transform: scale(0.9, 0.9);
+        
+         padding-right: 2rem;
+     }
+}
