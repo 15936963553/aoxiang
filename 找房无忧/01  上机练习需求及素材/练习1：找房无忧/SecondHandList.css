@@ -81,13 +81,22 @@ nav span:nth-child(1) {
 nav span:nth-child(4) {
   padding-right: 1rem;
 }
-nav div {
+nav .gray {
   width: 0;
   height: 0;
   border-left: 0.7rem solid transparent;
   border-right: 0.7rem solid transparent;
   border-top: 0.7rem solid #cccccc;
   margin-top: -0.5rem;
+}
+nav .red_ {
+  width: 0;
+  height: 0;
+  border-left: 0.7rem solid transparent;
+  border-right: 0.7rem solid transparent;
+  border-bottom: 0.7rem solid #FF8A00;
+  margin-top: -0.5rem;
+  display: none;
 }
 .list {
   width: 100%;
@@ -145,13 +154,13 @@ nav div {
   left: 0rem;
   display: none;
 }
-.mengban .quyu {
+.quyu {
   width: 100%;
   display: flex;
   background: white;
   display: none;
 }
-.mengban .quyu .left {
+.quyu .left {
   width: 19%;
   display: flex;
   flex-direction: column;
@@ -159,7 +168,7 @@ nav div {
   background: #F0F0F0;
   line-height: 3rem;
 }
-.mengban .quyu .left div:nth-child(1) {
+.quyu .left div:nth-child(1) {
   width: 100%;
   color: #FF8A00;
   font-size: 1.6rem;
@@ -170,7 +179,7 @@ nav div {
   align-items: center;
   border-right: 1px solid white;
 }
-.mengban .quyu .left div:nth-child(2) {
+.quyu .left div:nth-child(2) {
   width: 100%;
   font-size: 1.6rem;
   font-weight: 800;
@@ -178,15 +187,15 @@ nav div {
   justify-content: center;
   align-items: center;
 }
-.mengban .quyu ul {
+.quyu ul {
   width: 70%;
 }
-.mengban .quyu ul li {
+.quyu ul li {
   width: 100%;
   display: flex;
   justify-content: space-around;
 }
-.mengban .quyu ul li span {
+.quyu ul li span {
   display: block;
   width: 50%;
   text-align: center;
@@ -194,15 +203,15 @@ nav div {
   font-size: 1.2rem;
   color: #666667;
 }
-.mengban .quyu ul li .red {
+.quyu ul li .red {
   color: #FF8A00;
 }
-.mengban .price {
+.price {
   width: 100%;
   background: white;
   display: none;
 }
-.mengban .price li {
+.price li {
   width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid #CFCFCF;
@@ -210,13 +219,13 @@ nav div {
   font-size: 1.3rem;
   color: #666667;
 }
-.mengban .fangxing {
+.fangxing {
   width: 100%;
   background: white;
   height: 27rem;
   display: none;
 }
-.mengban .fangxing li {
+.fangxing li {
   width: 90%;
   margin: 0 auto;
   border-bottom: 1px solid #CFCFCF;
@@ -226,21 +235,21 @@ nav div {
   align-items: center;
   font-size: 1.2rem;
 }
-.mengban .fangxing li div {
+.fangxing li div {
   width: 1.5rem;
   height: 1.5rem;
   border: 1px solid #CFCFCF;
   display: flex;
   align-items: center;
 }
-.mengban .fangxing li div img {
+.fangxing li div img {
   width: 1.5rem;
   height: 1.5rem;
 }
-.mengban .fangxing li .yello {
+.fangxing li .yello {
   border: 1px solid #FF8A00;
 }
-.mengban .fangxing li:nth-child(7) {
+.fangxing li:nth-child(7) {
   height: 4rem;
   color: white;
   font-size: 1.3rem;
@@ -249,12 +258,12 @@ nav div {
   align-items: center;
   background: #FF8A00;
 }
-.mengban .more {
+.more {
   width: 100%;
   background: white;
   display: none;
 }
-.mengban .more li {
+.more li {
   width: 90%;
   margin: 0 auto;
   display: flex;
@@ -263,15 +272,15 @@ nav div {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.mengban .more li span {
+.more li span {
   display: flex;
   justify-content: space-between;
   font-size: 1.4rem;
 }
-.mengban .more li span div:nth-child(4) {
+.more li span div:nth-child(4) {
   margin-right: 2rem;
 }
-.mengban .more li div {
+.more li div {
   font-size: 1.2rem;
   margin-top: 1.5rem;
   width: 6rem;
